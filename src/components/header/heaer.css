@@ -3,9 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background-color: #CCFF00;
-  color: green;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background-color: white;
+  color: blue;
 }
 
 .logo {
@@ -21,7 +20,7 @@
 
 .nav a {
   text-decoration: none;
-  color: green;
+  color: blue;
   font-size: 16px;
   position: relative;
   transition: 0.3s;
@@ -33,7 +32,7 @@
   position: absolute;
   width: 0%;
   height: 2px;
-  background: green;
+  background: blue;
   left: 0;
   bottom: -5px;
   transition: 0.3s;
@@ -63,15 +62,56 @@
    left: 500px;
 } 
 .btn-sign{
-  background-color: green;
+  background-color: blue;
   color: white  ;
   border-style: none;
-  border-radius: 2px;
+  border-radius: 5px;
   height: 35px;
+  width: 120px;
 }
 .btn-sign:hover{
   color: #CCFF00;
 }
 .btn-sign:active{
+  opacity: 70%;
+}
+.onclick-div{
+  position: absolute;
+  display: flex;
+  background-color: blue;
+  margin-left: 1070px;
+  width: 350px;
+  margin-top: 720px;
+  height: 100%;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  margin-left: 55px;
+}
+input{
+  width: 250px;
+  height: 35px;
+  margin-top: 20px;
+}
+.X{
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  border-style: none;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.btn-otish{
+  margin-top: 20px;
+  background-color: rgb(19, 195, 19) ;
+  border-style: none;
+  color: white;
+  border-radius: 3px;
+  height: 30px;
+  width: 100px;
+  margin-left: 85px;
+}
+.btn-otish:active{
   opacity: 70%;
 }

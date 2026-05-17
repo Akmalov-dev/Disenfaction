@@ -4,7 +4,7 @@ import soccer from './images/soccer_pitch.jpg'
 const homepage = () => {
   return (
     <>
-
+     <p>servie</p>
     </>
   )
 }
