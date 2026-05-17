@@ -5,6 +5,7 @@ import './App.css'
 import AboutPage from './pages/AboutPage/Aboutpage'
 import HomePage from './pages/homePage/homepage'
 import ContactPage from './pages/ConstactPage/contactpage'
+import FaqPage from '../src/pages/FaqPage/FaqPage'
 import { BrowserRouter , Routes , Route } from 'react-router-dom'
 import Layout from './components/layout/layout'
 
@@ -18,6 +19,7 @@ function App() {
                 <Route path='home' element={<HomePage/>}/> 
                 <Route path='about' element={<AboutPage/>}/>
                 <Route path='contact' element={<ContactPage/>}/>
+                <Route path='faq' element={<FaqPage/>}/>
               </Route>
          </Routes>
         </BrowserRouter>

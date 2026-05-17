@@ -9,9 +9,9 @@ const Header = () => {
 
       <nav className="nav">
         <Link to="/home">Service</Link>
-        <Link to="/about"></Link>
-        <Link to="/contact">bog'lanish</Link>
-        <Link></Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/faq">Faq</Link>
       </nav>
       <button className='btn-sign'>Ro'yxatdan O'tish</button>
     </header>
