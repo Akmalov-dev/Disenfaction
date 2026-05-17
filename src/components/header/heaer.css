@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #CCFF00;
+  color: green;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: green;
+  font-size: 16px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* hover underline effect */
+.nav a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: green;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.nav a:hover {
+  opacity: 0.8;
+}
+.pitch{
+    margin-left: 650px;
+    color: green;
+}
+.img-pitch{
+      margin-left: 230px;
+      filter: brightness(50%);
+}
+.orqali{
+   position: absolute ;
+   color: rgb(255, 255, 255);
+   font-size: 40px;
+   width: 800px;
+   top: 400px;
+   left: 500px;
+} 
+.btn-sign{
+  background-color: green;
+  color: white  ;
+  border-style: none;
+  border-radius: 2px;
+  height: 35px;
+}
+.btn-sign:hover{
+  color: #CCFF00;
+}
+.btn-sign:active{
+  opacity: 70%;
+}
