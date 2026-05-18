@@ -2,7 +2,9 @@ import React from 'react'
 
 const FaqPage = () => {
   return (
-    <div>FaqPage</div>
+    <>
+    <p>you can handle it by day of the month</p>
+    </>
   )
 }
 
