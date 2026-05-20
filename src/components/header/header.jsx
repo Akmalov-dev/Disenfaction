@@ -47,7 +47,7 @@ const Header = () => {
         <Link to="/contact">Contact</Link>
         <Link to="/faq">Faq</Link>
       </nav>
-      <button className='btn-sign' onClick={()=>setOpen(true)}>Kirish</button>
+      <button className='btn-sign' onClick={()=>setOpen(true)}>Login</button>
 
       {
       open && (
