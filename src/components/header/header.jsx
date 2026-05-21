@@ -57,7 +57,7 @@ const Header = () => {
             <input type="email" placeholder='email' id='email'/>
             <input type="password" placeholder='parol' id='password'/>
             <input type="text" placeholder='phone number' id='phone'/>
-            <button className='btn-otish' type='submit'>O'tish</button>
+            <button className='btn-otish' type='submit'>Davom etish</button>
           </div>
           <div>
             <button className='X' onClick={()=>setOpen(false)}>X</button>
