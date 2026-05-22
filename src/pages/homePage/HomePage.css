@@ -1,0 +1,47 @@
+.service{
+    display: flex;
+    margin-top: -40px;
+}
+.img-pishpish{
+    background-color: rgb(153, 0, 153);
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 270px;
+    margin-left: -25px;
+}
+.img-dizen{
+    width: 650px;
+    margin-left:70px;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+.f-xizmat{
+    color: rgb(40, 75, 255);
+    font-size: 120px;
+    font-weight: bold;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.f-mijoz{
+    font-size: 23px;
+    width: 500px;
+    color: grey;
+    margin-top: 0;
+}
+.fonts-dizen{
+    margin-left: 20px;
+}
+.btn-contact{
+  background-color: #3375FF;
+  color: white  ;
+  border-style: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 200px;
+}
+.btn-contact:active{
+    opacity: 70%;
+}
+.btn-contact:hover{
+    color: red;
+}
