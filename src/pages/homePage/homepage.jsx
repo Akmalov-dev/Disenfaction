@@ -13,10 +13,10 @@ const homepage = () => {
         <button className='btn-contact'>Bog'lanish</button>
       </div>
       <div>     
-        <img className='img-pishpish' src={Pishpish} alt="" />
+        <img className='img-pishpish' src={Pishpish} alt="pic" />
       </div>
       <div>
-        <img className='img-dizen' src={Dizen} alt="" />
+        <img className='img-dizen' src={Dizen} alt="pic" />
       </div>
      </div>
     </>
