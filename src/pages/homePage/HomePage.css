@@ -45,3 +45,63 @@
 .btn-contact:hover{
     color: red;
 }
+.f-afzallik{
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+.afzallik{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+.f-tezda{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f-bizning{
+    color: grey;
+    width: 300px;
+}
+.img-brain{
+    width: 200px;
+    margin-left: -20px;
+}
+.img-medal{
+    width: 135px;
+}
+.img-back{
+    position: relative;
+    width: 1200px;
+    margin-left: 140px;
+    margin-top: 50px;
+    border-radius: 10px;
+    filter: brightness(75%);
+}
+.first-afzallik{
+    margin-top: 50px;
+}
+.f-klapa{
+    font-size: 50px;
+    font-weight: bold;
+    width: 450px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+.klapa-font{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -570px;
+    margin-left: 840px;
+    gap: 20px;
+}
+.f-bizning1{
+  color: grey;
+  width: 300px;
+  color: white;
+}
