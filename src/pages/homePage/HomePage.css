@@ -97,11 +97,25 @@
     flex-direction: column;
     position: absolute;
     margin-top: -570px;
-    margin-left: 840px;
+    margin-left: 800px;
     gap: 20px;
 }
 .f-bizning1{
   color: grey;
   width: 300px;
   color: white;
+}
+.f-service{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+.f-darslik{
+    color: grey;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 130px;
+    margin-top: 0;
 }

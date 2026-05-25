@@ -52,6 +52,13 @@ const homepage = () => {
         <button className='btn-contact'>Bog'lanish</button>
       </div>
      </div>
+
+     <hr />
+
+     <div>
+      <p className='f-service'>SERVICE</p>
+      <p className='f-darslik'>Bu darsliklar sizning yuqori daraja olishingizga yordam beradi</p>
+     </div>
     </>
   )
 }
