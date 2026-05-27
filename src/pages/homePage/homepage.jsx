@@ -59,6 +59,43 @@ const homepage = () => {
       <p className='f-service'>SERVICE</p>
       <p className='f-darslik'>Bu darsliklar sizning yuqori daraja olishingizga yordam beradi</p>
      </div>
+
+     <div className='boxes'>
+      <div className='first-box'>
+        <div className='box-fonts'>
+          <p className='f-tushuncha'>Boshlang’ich tushunchalar</p>
+          <p className='f-nazariy'>nazariy bilimlar</p>
+          <p className='f-dars'>16 dars</p>
+        </div>
+        <div>
+          <button className='btn-yozilish'>Yozilish</button>
+        </div>
+      </div>
+
+      <div className='first-box'>
+        <div className='box-fonts'>
+          <p className='f-tushuncha'>O'rta Tushunchalar</p>
+          <p className='f-nazariy'>nazariy va amaliy bilimlar</p>
+          <p className='f-dars'>23 dars</p>
+        </div>
+        <div>
+          <button className='btn-yozilish'>Yozilish</button>
+        </div>
+      </div>
+
+      <div className='first-box'>
+        <div className='box-fonts'>
+          <p className='f-tushuncha'>Yuqori Tushunchalar</p>
+          <p className='f-nazariy'>amaliy bilimlar</p>
+          <p className='f-dars'>16 dars</p>
+        </div>
+        <div>
+          <button className='btn-yozilish'>Yozilish</button>
+        </div>
+      </div>
+     </div>
+
+     
     </>
   )
 }
