@@ -168,3 +168,29 @@
 .btn-yozilish:hover{
     color: red;
 }
+.img-dizen2{
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.img-secure{
+    width: 70px;
+    margin-top: 60px;
+}
+.after-mid{
+    margin-top: 100px;
+    display: flex;
+    background-color: #21eadd;
+    height: 500px;
+}
+.f-talaygina{
+    font-size: 50px;
+    font-weight: bold;
+    width: 550px;
+    color: white;
+}
+.after-mid-fonts{
+    margin-left: 150px;
+}

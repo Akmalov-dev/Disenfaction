@@ -6,6 +6,8 @@ import Brain from '../homePage/images/brain.avif'
 import Medal from '../homePage/images/medal.png'
 import Shake from '../homePage/images/shake.png'
 import Back from '../homePage/images/back.png'
+import Dizen2 from '../homePage/images/dizen2.png'
+import Secure from '../homePage/images/secure.png'
 
 const homepage = () => {
   return (
@@ -92,6 +94,17 @@ const homepage = () => {
         <div>
           <button className='btn-yozilish'>Yozilish</button>
         </div>
+      </div>
+     </div>
+
+     <div className='after-mid'>
+      <div>
+        <img className='img-dizen2' src={Dizen2} alt="" />
+      </div>
+      <div className='after-mid-fonts'>
+        <img className='img-secure' src={Secure} alt="" />
+        <p className='f-talaygina'>Bizga ko'p yillardan beri  kompaniyamizga ishonch bildirganlar talaygina</p>
+        <button className='btn-contact'>Bog'lanish</button>
       </div>
      </div>
 
