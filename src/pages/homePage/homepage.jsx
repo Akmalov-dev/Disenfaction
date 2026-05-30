@@ -92,7 +92,7 @@ const homepage = () => {
           <p className='f-dars'>16 dars</p>
         </div>
         <div>
-          <button className='btn-yozilish'>Yozilish</button>
+          <button className='btn-yozilish'>Darslikni olish</button>
         </div>
       </div>
      </div>
