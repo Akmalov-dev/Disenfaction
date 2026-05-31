@@ -99,10 +99,10 @@ const homepage = () => {
 
      <div className='after-mid'>
       <div>
-        <img className='img-dizen2' src={Dizen2} alt="" />
+        <img className='img-dizen2' src={Dizen2} alt="alt" />
       </div>
       <div className='after-mid-fonts'>
-        <img className='img-secure' src={Secure} alt="" />
+        <img className='img-secure' src={Secure} alt="alt" />
         <p className='f-talaygina'>Bizga ko'p yillardan beri  kompaniyamizga ishonch bildirganlar talaygina</p>
         <button className='btn-contact'>Bog'lanish</button>
       </div>
