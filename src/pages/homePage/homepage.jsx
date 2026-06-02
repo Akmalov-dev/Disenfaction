@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Pishpish from '../homePage/images/pishpish.png'
 import Dizen from '../homePage/images/dizen.jpg'
 import '../homePage/HomePage.css'
@@ -10,6 +10,7 @@ import Dizen2 from '../homePage/images/dizen2.png'
 import Secure from '../homePage/images/secure.png'
 
 const homepage = () => {
+  const [faq , setFaq] = useState(false);
   return (
     <>
      <div className='service'>
@@ -107,8 +108,25 @@ const homepage = () => {
         <button className='btn-contact'>Bog'lanish</button>
       </div>
      </div>
+     <hr />
 
-     <p>hello world</p>
+     <div className='faq'>
+      <div>
+        <p className='f-faq'>FAQ</p>
+      </div>
+      <div className='batafsil'>
+        <p className='f-nima'>Kursdan nima topaman</p>
+        <button className='btn-more' onClick={()=>setFaq(true)}>batafsil</button>
+      </div>
+     </div>
+
+     {faq && (
+      <div className='setfaq'>
+        <p className='f-nos'>Bu bir nosni kaypiday kapy darsga qatnasha olmasangiz, darsdan so‘ng guruhingizga zoom zapisi tashlab beriladi</p>
+        <button className='yop' onClick={()=>setFaq(false)}>X</button>
+      </div>
+     )}
+     <hr />
 
      
     </>
