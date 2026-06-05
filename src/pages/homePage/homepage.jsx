@@ -127,6 +127,7 @@ const homepage = () => {
       </div>
      )}
      <hr />
+     <p>some point</p>
 
      
     </>
