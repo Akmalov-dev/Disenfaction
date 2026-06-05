@@ -54,10 +54,10 @@ const Header = () => {
       open && (
         <form className='onclick-div' onSubmit={sendMessage}>
           <div className='inputs'>
-            <input type="text" placeholder='F.I.O' id='name'/>
-            <input type="email" placeholder='email' id='email'/>
-            <input type="password" placeholder='parol' id='password'/>
-            <input type="text" placeholder='phone number' id='phone'/>
+            <input type="text" placeholder='F.I.O' id='name' required/>
+            <input type="email" placeholder='email' id='email' required/>
+            <input type="password" placeholder='parol' id='password' required/>
+            <input type="text" placeholder='phone number' id='phone' required/>
             <button className='btn-otish' type='submit'>Davom etish</button>
           </div>
           <div>
